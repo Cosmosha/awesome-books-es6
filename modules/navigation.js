@@ -19,7 +19,7 @@ addBookLink.addEventListener('click', () => {
 });
 
 contactLink.addEventListener('click', () => {
-  contactInfo.classList.toggle('active');
+  contactInfo.classList.tog('active');
   bookCollections.style.display = 'none';
   addBooks.classList.remove('active');
 });
